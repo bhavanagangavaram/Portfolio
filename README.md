@@ -3,4 +3,4 @@
 This is my personal portfolio website.
 
 🌐 Live Website:
-https://bhavanagangavaram.github.io/portfolio/
+https://bhavanagangavaram.github.io/Portfolio/
