@@ -1,7 +1,5 @@
 # Gangavaram Bhavana | Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/0f172a/6366f1?text=Portfolio+Preview)
-
 A modern, responsive, and interactive personal portfolio website showcasing my skills, projects, and professional background. featuring a **Glassmorphism** design with deep dark mode aesthetics.
 
 🌐 **Live Demo:** [https://bhavanagangavaram.github.io/Portfolio/](https://bhavanagangavaram.github.io/Portfolio/)
