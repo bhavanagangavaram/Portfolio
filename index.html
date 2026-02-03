@@ -1,150 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gangavaram Bhavana | Portfolio</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #f5f7fb;
-      color: #222;
-    }
-
-    header {
-      background: linear-gradient(135deg, #4f46e5, #6366f1);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    h2 {
-      color: #4f46e5;
-      border-left: 5px solid #4f46e5;
-      padding-left: 10px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-    }
-
-    .skills span {
-      display: inline-block;
-      background: #eef2ff;
-      color: #3730a3;
-      padding: 8px 14px;
-      margin: 6px;
-      border-radius: 20px;
-      font-size: 14px;
-    }
-
-    footer {
-      background: #111827;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    a {
-      color: #4f46e5;
-      text-decoration: none;
-      font-weight: 500;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangavaram Bhavana | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
-<header>
-  <h1>Gangavaram Bhavana</h1>
-  <p>Full Stack Developer | Python | Java | Web Technologies</p>
-</header>
+    <nav>
+        <div class="container nav-content">
+            <a href="#" class="logo">Gangavaram <span>Bhavana</span></a>
+            <div class="menu-btn">☰</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a Computer Science undergraduate with strong interest in Full Stack Development,
-      Backend Programming, and secure web applications. I have experience in Python,
-      Java, and modern web technologies, along with hands-on project development.
-    </p>
-  </div>
-</section>
+    <header class="hero">
+        <div class="container hero-content fade-up">
+            <span class="hero-subtitle">Hello, I'm</span>
+            <h1>Gangavaram Bhavana</h1>
+            <p class="hero-text">Full Stack Developer specializing in Python, Java, and modern Web Technologies. Building secure and scalable applications with a focus on user experience.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </header>
 
-<section>
-  <h2>Technical Skills</h2>
-  <div class="card skills">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Python</span>
-    <span>Java</span>
-    <span>MongoDB</span>
-    <span>MySQL</span>
-    <span>Git & GitHub</span>
-    <span>Blockchain Basics</span>
-  </div>
-</section>
+    <main>
+        <section id="about">
+            <div class="container fade-up">
+                <h2>About Me</h2>
+                <div class="card">
+                    <p style="color: var(--text-secondary); font-size: 1.1rem;">
+                        I am a Computer Science undergraduate with a strong interest in Full Stack Development, Backend Programming, and secure web applications. I have experience in Python, Java, and modern web technologies, along with hands-on project development. I am passionate about solving complex problems and learning new technologies to build impactful solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<section>
-  <h2>Projects</h2>
-  <div class="card">
-    <h3>AI-Integrated Decentralized E-Voting System</h3>
-    <ul>
-      <li>Secure voting using AI face verification and OTP.</li>
-      <li>Blockchain-based vote storage using MetaMask.</li>
-      <li>Admin booth mode for users without smartphones.</li>
-      <li>Ensures one-person-one-vote system.</li>
-    </ul>
-  </div>
-</section>
+        <section id="skills">
+            <div class="container fade-up">
+                <h2>Technical Skills</h2>
+                <div class="card">
+                    <div class="skills-container">
+                        <span class="skill-tag"><i class="fab fa-html5"></i> HTML</span>
+                        <span class="skill-tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> MongoDB</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-link"></i> Blockchain Basics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<section>
-  <h2>Certifications</h2>
-  <div class="card">
-    <ul>
-      <li>Python Programming Certification</li>
-      <li>Salesforce Trailhead Certification</li>
-      <li>TCS TrailMix Certification</li>
-    </ul>
-  </div>
-</section>
+        <section id="projects">
+            <div class="container fade-up">
+                <h2>Featured Projects</h2>
+                <div class="card-grid">
+                    <article class="card">
+                        <h3>AI-Integrated Decentralized E-Voting System</h3>
+                        <p style="margin: 1rem 0; color: var(--text-secondary);">
+                            A secure, transparent voting platform leveraging Blockchain and AI for identity verification.
+                        </p>
+                        <ul style="list-style-position: inside; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                            <li>Secure voting using AI face verification and OTP.</li>
+                            <li>Blockchain-based vote storage using MetaMask.</li>
+                            <li>Admin booth mode for inclusive access.</li>
+                            <li>Guarantees one-person-one-vote integrity.</li>
+                        </ul>
+                        <div class="skills-container" style="margin-top: auto;">
+                            <span class="skill-tag" style="font-size: 0.8rem;">Blockchain</span>
+                            <span class="skill-tag" style="font-size: 0.8rem;">AI/ML</span>
+                            <span class="skill-tag" style="font-size: 0.8rem;">React</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<section>
-  <h2>Education</h2>
-  <div class="card">
-    <p><b>B.Tech – Computer Science and Engineering</b></p>
-    <p>K.S.R.M College of Engineering (JNTUA)</p>
-    <p>2022 – 2026 | CGPA: 8.03</p>
-  </div>
-</section>
+        <section id="certifications">
+             <div class="container fade-up">
+                <h2>Certifications</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3><i class="fab fa-python" style="color: var(--accent-primary);"></i> Python Programming</h3>
+                        <p style="color: var(--text-secondary);">Certification in core Python programming concepts and application development.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fab fa-salesforce" style="color: var(--accent-primary);"></i> Salesforce Trailhead</h3>
+                        <p style="color: var(--text-secondary);">Completed various modules on Salesforce development and administration.</p>
+                    </div>
+                    <div class="card">
+                        <h3><i class="fas fa-certificate" style="color: var(--accent-primary);"></i> TCS TrailMix</h3>
+                        <p style="color: var(--text-secondary);">Professional certification demonstrating technical proficiency.</p>
+                    </div>
+                </div>
+             </div>
+        </section>
 
-<section>
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Email: <b>bhavanagangavaram1@gmail.com</b></p>
-    <p>Phone: <b>+91 93819 96621</b></p>
-    <p>GitHub: <a href="https://github.com/bhavanagangavaram" target="_blank">github.com/bhavanagangavaram</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/gangavaram-bhavana-26641027b" target="_blank">View Profile</a></p>
-  </div>
-</section>
+        <section id="education">
+            <div class="container fade-up">
+                <h2>Education</h2>
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">B.Tech – Computer Science and Engineering</h3>
+                            <p style="color: var(--accent-primary); font-weight: 500;">K.S.R.M College of Engineering (JNTUA)</p>
+                        </div>
+                        <div style="text-align: right;">
+                            <span style="display: block; color: var(--text-secondary);">2022 – 2026</span>
+                            <span style="display: block; font-weight: 700; color: var(--text-primary);">CGPA: 8.03</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-  <p>© 2025 Gangavaram Bhavana | Portfolio</p>
-</footer>
+        <section id="contact">
+            <div class="container fade-up">
+                <h2>Get In Touch</h2>
+                <div class="card" style="text-align: center;">
+                    <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--text-secondary);">
+                        Feel free to reach out for collaborations or opportunities.
+                    </p>
+                    <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                        <a href="mailto:bhavanagangavaram1@gmail.com" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Email Me
+                        </a>
+                        <a href="tel:+919381996621" class="btn btn-secondary">
+                            <i class="fas fa-phone"></i> Call Me
+                        </a>
+                        <a href="https://github.com/bhavanagangavaram" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/gangavaram-bhavana-26641027b" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <div class="container" style="padding: 2rem 0; text-align: center; border-top: 1px solid var(--card-border);">
+            <p style="color: var(--text-secondary);">&copy; 2025 Gangavaram Bhavana. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-  </html>
+</html>
